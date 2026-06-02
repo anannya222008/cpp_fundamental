@@ -1,16 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(){
-    float a;
+    double a;
     cout <<"Enter a number: ";
     cin >> a;
-
-    float b;
+    double b;
     cout<<"Enter another number: ";
     cin >> b;
-
-    float sum = a+b;
-    cout << "The sum of " <<a<< " and " <<b<< " is " << sum << endl;
+    double division = a/b;
+    cout<<"the division of " <<a<< " and " <<b<< " is " <<division << 
+    endl;
     return 0;
-
 }
