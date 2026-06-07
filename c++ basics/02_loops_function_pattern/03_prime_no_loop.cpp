@@ -9,7 +9,7 @@ int main(){
         if(n%i == 0){
             cout <<n<<" is not a prime number."<<endl;
         }else{
-            cout<<n<<" is a prime number."<<endl;
+            cout<<n<<"is a prime number."<<endl;
         }
 break;
     }
