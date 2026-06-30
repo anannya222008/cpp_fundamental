@@ -7,6 +7,6 @@ int main(){
     int b;
     cout<<"Enter another number : ";
     cin>>b;
-     cout<< (a|b)<<endl;
+     cout<< (a | b)<<endl;
      return 0;
 }
