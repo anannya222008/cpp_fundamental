@@ -7,6 +7,6 @@ int num(){
 }
 int main(){
     cout<<a<<endl; // 4
-    cout<<b<<endl; // error: 'b' was not declared in this scope
+    cout<<" "<<endl; // error: 'b' was not declared in this scope
 }
 
