@@ -10,4 +10,5 @@ int main(){
     cout<< sizeof(double)<<endl; // 8
     cout<< sizeof(signed int)<<endl; // 4
     cout<< sizeof(unsigned int)<<endl; // 4
+    
 }
