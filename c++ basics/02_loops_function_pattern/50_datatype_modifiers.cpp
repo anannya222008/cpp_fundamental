@@ -9,5 +9,7 @@ int main(){
     cout<< sizeof(float)<<endl; // 4
     cout<< sizeof(signed int)<<endl; // 4
     cout<< sizeof(unsigned int)<<endl; // 4
+    cout<< sizeof(signed char)<<endl; // 1
+    cout<< sizeof(unsigned char)<<endl; // 1
     
 }
