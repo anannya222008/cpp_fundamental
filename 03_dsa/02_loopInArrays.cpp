@@ -1,10 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int siz;
-    cout<<"Enter the size of array: ";
-    cin>>siz;
-    int size = siz;
+    int size=4;
     int marks[size];
     for(int i = 0;i<size;i++){
         cout<<"Enter the marks of student "<<i+1<<": ";
