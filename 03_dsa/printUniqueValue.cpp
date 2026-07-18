@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 void printUniqueValue(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         bool isUnique = true;
