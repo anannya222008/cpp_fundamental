@@ -12,5 +12,10 @@ int main(){
     for(int i = 0; i < vec2.size(); i++){// Loop through the vector and print each element
         cout<<vec2[i]<<" ";
     }
+    cout<<endl;
+    for(int i : vec1){// Loop through the vector using range-based for loop and print each element
+        cout<<i<<" ";
+    }
+    cout<<endl;
     return 0;
 }
