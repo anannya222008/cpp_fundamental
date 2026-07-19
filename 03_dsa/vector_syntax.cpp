@@ -22,5 +22,9 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
+    for(char i : vec3){
+        cout<<i<<" ";
+    }
+    cout<<endl;
     return 0;
 }
