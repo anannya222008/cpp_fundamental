@@ -6,5 +6,11 @@ int main(){
     cout<<sizeof(vec)<<endl;// Print the size of the vector object in bytes
     vector <int> vec1 = {1,2,3,4};// Declare a vector of integers with 4 elements initialized to 1,2,3,4
     cout<<sizeof(vec1)<<endl;// Print the size of the vector object in bytes
-
+    cout<<vec1[0]<<endl;// Print the first element of the vector
+    vector <int> vec2(5,10);// Declare a vector of integers with 5 elements initialized to 10
+    cout<<sizeof(vec2)<<endl;// Print the size of the vector object in bytes
+    for(int i = 0; i < vec2.size(); i++){// Loop through the vector and print each element
+        cout<<vec2[i]<<" ";
+    }
+    return 0;
 }
