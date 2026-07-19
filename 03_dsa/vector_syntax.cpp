@@ -17,5 +17,10 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
+    vector <char> vec3 = {'a','b','c','d'};
+    for(int i : vec3){
+        cout<<i<<" ";
+    }
+    cout<<endl;
     return 0;
 }
