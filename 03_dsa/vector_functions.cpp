@@ -10,4 +10,10 @@ for(int i : vec){
 }
  cout<<endl;
 cout<<vec.size()<<endl;
+vec.pop_back();// Remove the last element from the vector
+for(int i : vec){
+    cout<< i<<" ";
+}
+ cout<<endl;
+
 }
