@@ -15,5 +15,7 @@ for(int i : vec){
     cout<< i<<" ";
 }
  cout<<endl;
+ cout<<vec.front()<<endl;// Access the first element of the vector
+ cout<<vec.back()<<endl;// Access the last element of the vector
 
 }
