@@ -10,11 +10,10 @@ vector <int> pairSum(vector <int>&nums,int target){
             if(nums[i] + nums[j] == target){
                 pair.push_back(nums[i]);
                 pair.push_back(nums[j]);
-                return pair;
-
-             }
+            }
         }
     }
+    return pair;
 }
 int main(){
     vector<int>nums = {1,2,-3,8,5};
@@ -24,4 +23,4 @@ int main(){
     
     cout<<endl;
     return 0;
- }
+}
