@@ -15,7 +15,7 @@ int max(int arr[],int sz){
     return max_sum;
 }
 int main(){
-    int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
+    int arr[] = {-3,2,5,-1};
     int sz = sizeof(arr)/sizeof(arr[0]);
     cout<<max(arr,sz);
     return 0;
