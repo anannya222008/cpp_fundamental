@@ -22,7 +22,7 @@ vector <int> pairSum(vector <int>& nums,int target){
 }
 int main(){
     vector <int> nums = {3,2,4};
-    int target = 7;
+    int target = 6;
     vector <int> vec = pairSum(nums,target);
     cout<<"The nums whose sum gives " <<target<<" are : ";
     for(int i:vec){

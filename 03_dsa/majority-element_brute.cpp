@@ -20,7 +20,7 @@ int element(vector<int>& nums){
     return -1;
 }
 int main(){
-    vector <int> nums = {1,1,2,2,2,2,3,1};
+    vector <int> nums = {3,2,3,4,4,4,4};
     cout<<element(nums)<<endl;
     return 0;
 
