@@ -16,8 +16,8 @@ vector <int> pairSum(vector <int>&nums,int target){
     return pair;
 }
 int main(){
-    vector<int>nums = {1,2,-3,8,5};
-    int target = 7;
+    vector<int>nums = {3,2,4};
+    int target = 5;
     vector<int>ans = pairSum(nums,target);
     cout<<"The num whose sum gives "<<target<<" are : "<<ans[0]<<", "<<ans[1];
     
