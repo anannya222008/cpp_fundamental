@@ -21,7 +21,7 @@ int element(vector<int>& nums){
     return ans;
 }
 int main(){
-    vector <int> nums = {3,2,3,4,4,4,4};
+    vector <int> nums = {3,2,3,4,4,4};
     cout<<element(nums)<<endl;
     return 0;
 
