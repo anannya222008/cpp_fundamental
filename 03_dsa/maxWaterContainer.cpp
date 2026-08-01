@@ -22,7 +22,7 @@ int maxArea(vector<int>& height) {
     return maxWater;
 }
 int main(){
-    vector <int>ht = {2,4,3,7,6,5};
+    vector <int>ht = {2,4,3,7,2,1};
     cout<<maxArea(ht)<<endl;
     return 0;
 }
