@@ -11,21 +11,17 @@ vector <int> product(vector <int>&nums){
     for(int i=1;i<sz;i++){
         prefix[i] = prefix[i-1]*nums[i-1];
     }
-    for(int i=sz-2;i>=0;i--){
+    for(int i=2;i>=0;i--){
         suffix[i] = suffix[i+1]*nums[i+1];
     }
     for(int i=0;i<sz;i++){
-        ans[i]=prefix[i]*suffix[i];
+        ans[i] = prefix[i]*suffix[i];
     }
     return ans;
 }
 int main(){
-    vector <int>nums = {2,1,3,6,3};
+    vector <int>nums = {1,2,3,4};
     vector <int>ans = product(nums);
-    for(int i:nums){
-        cout<<i<<" ";
-    }
-    cout<<endl;
     for(int i:ans){
         cout<<i<<" ";
     }
