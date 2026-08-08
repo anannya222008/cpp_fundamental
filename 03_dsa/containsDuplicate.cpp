@@ -14,7 +14,7 @@ bool containsDuplicate(vector<int>& nums) {
     return false;
 }
 int main(){
-    vector<int>nums = {1,2,3,4}; 
+    vector<int>nums = {1,2,2,3,4}; 
     bool ans = containsDuplicate(nums);
     cout<<ans<<endl;
 }
