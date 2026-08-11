@@ -25,11 +25,13 @@ bool isValid(vector<int>& nums, int k,int maxSum){
     int splitArray(vector<int>& nums, int k) {
     int n = nums.size();
     int sum = 0;
+    int maxv = INT_MIN;
     if(k>n) return -1;
-    for(int i:nums){
-    sum +=i;
+    for(int i=0;i<n;i++){
+        sum += nums[i];
+        maxv = max(maxv,nums[i]);
     }
-    int st = 0,end = sum;
+    int st = maxv,end = sum;
     int ans = 0;
     while(st<=end){
         int mid = st + (end-st)/2;

@@ -21,8 +21,6 @@ bool isValid(vector<int>& nums,int m,int maxTime){
         return true;
     }
 }
-
-
 int minTime(vector<int>& nums,int m){
     int n = nums.size();
     if(m>n) return -1;
