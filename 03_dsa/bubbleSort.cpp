@@ -13,7 +13,7 @@ vector<int> bubbleSort(vector<int>& nums){
                 isSwap = true;
             }
         }
-        if(!isSwap){//there is no sawp,its already sorted.
+        if(!isSwap){// no values were swapped,its already sorted.
             return;
         }
     }
