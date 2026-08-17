@@ -16,7 +16,7 @@ vector<int> sort(vector<int>& nums){
     return nums;
 }
 int main(){
-    vector<int> nums = {2,3,5,1,4};
+    vector<int> nums = {4,1,5,3,2};
     vector<int> ans = sort(nums);
     for(int i:ans){
         cout<<i<<" ";
