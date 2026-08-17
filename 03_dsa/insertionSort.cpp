@@ -4,13 +4,14 @@
 using namespace std;
 
 vector<int> sort(vector<int>& nums){
-    for(int i=0;i<nums.size()-1;i++){
-        for(int j=0;j<nums.size()-i-1;j++){
-            int previous = j,current = j+1;
-            if(nums[previous] > nums[current]){
-                swap(nums[previous],nums[current]);
-            }
+    int n= nums.size();
+    for(int i=1;i<n;i++){
+        int prev = i-1,curr = nums[i];
+        while(prev >=0 && nums[prev]>curr){
+            nums[prev+1] = nums[prev];
+            prev--;
         }
+        nums[prev+1] = curr;
     }
     return nums;
 }
