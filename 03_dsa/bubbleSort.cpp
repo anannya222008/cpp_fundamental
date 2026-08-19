@@ -7,14 +7,14 @@ vector<int> bubbleSort(vector<int>& nums){
     int n = nums.size();
     bool isSwap = false;
     for(int i=0;i<n-1;i++){
-        for(int j=0;j<n-i-1;j++){   //O(n^2)
-            if(nums[j]>nums[j+1]){
-                swap(nums[j],nums[j+1]);
+        for(int j=1;j<n-i;j++){   //O(n^2)
+            if(nums[j-1]>nums[j]){
+                swap(nums[j-1],nums[j]);
                 isSwap = true;
             }
         }
         if(!isSwap){// no values were swapped,its already sorted.
-            return;
+            return nums;
         }
     }
     return nums;
