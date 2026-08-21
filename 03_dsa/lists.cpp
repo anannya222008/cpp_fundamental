@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <list>
+#include <deque>
 #include <algorithm>
 using namespace std;
 int main(){
@@ -14,4 +15,9 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
+    //deque
+    deque <int> d = {1,2,3,4};
+    //pairs
+    pair <int,pair <int,int> > p = {2,{2,1}};
+    cout<<p.first<<" "<<p.second.first<<" "<<p.second.second<<endl;
 }
