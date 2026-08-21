@@ -2,6 +2,7 @@
 #include <vector>
 #include <list>
 #include <deque>
+#include <stack>
 #include <algorithm>
 using namespace std;
 int main(){
@@ -20,4 +21,11 @@ int main(){
     //pairs
     pair <int,pair <int,int> > p = {2,{2,1}};
     cout<<p.first<<" "<<p.second.first<<" "<<p.second.second<<endl;
+    //stack
+    stack <int> s;
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    cout<<s.top()<<endl;
+
 }
